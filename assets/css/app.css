@@ -1,0 +1,97 @@
+nav {
+    background-color: #94297dda;
+}
+nav .nav-link, .navbar-brand {
+    color: #fff;
+}
+
+#slider img {
+   /*border: 2px solid red; */
+    height: 90vh;
+    object-fit: cover;
+    object-position: 100% 20%; 
+}
+
+/* collection */
+
+
+#collection .img1 {
+    width: 100%;
+    height: 540px;
+    /*object-fit: cover;
+   object-position: 100% 5%;*/
+}
+#collection .img2 {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    object-position: 100% 0%;
+}
+
+/* product section */
+#product a {
+    text-decoration: none;
+}
+
+/*#product .card {
+    overflow: hidden;    
+} */
+
+
+#product .card, #product .card .card-body {
+    overflow: hidden;    
+ }
+    
+
+#product .card img {
+width: 100%;
+height: 250px;
+object-fit: cover;
+transition: all 0.5s;
+
+}
+#product .card:hover img {
+    transform: scale(1.5);    
+}
+
+/* News Letter */
+
+#news-letter {
+    height: 300px;
+    border: 2px solid darkblue;
+    background-image: url(../images/rose8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#news-letter .input-group {
+    width:70%;
+}
+#news-letter .letter {
+    color:#3d0d33da;
+}
+
+/* footer */
+#footer {
+    background-color: #3d0d33da;
+    color:#fff;
+}
+
+#footer ul {
+
+    list-style-type: none;
+}
+
+#footer a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#copy-right {
+    border-top: 1px solid rgb(23, 73, 211);
+}
